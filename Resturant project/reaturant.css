@@ -1,0 +1,81 @@
+.menu_head {
+  text-align: center;
+ font-size: 70px;
+ background-color: rgba(132, 102, 240, 0.909);
+ box-shadow: 15px 15px rgb(255, 255, 255);
+ margin-left: 100px;
+ margin-right: 100px;
+ text-shadow: 2px 2px white;
+
+}
+
+body {
+  background-image: url("Background img restturat.webp");
+}
+
+#d1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.d2 {
+  display: flex;
+}
+
+.head1 {
+  font-size: 50px;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para {
+  color: rgba(235, 239, 233, 0.79);
+  text-align: left;
+  
+}
+
+.chef:active {
+  transform: scale(0.90);
+}
+
+#foot1 {
+  background-color: rgba(38, 197, 203, 0.406);
+  height: 130px;
+
+}
+
+#f1 {
+  font-size: 100px;
+  color: azure;
+  text-align: center;
+
+}
+
+#foot2 {
+  background-color: rgba(60, 188, 243, 0.279);
+  color: aliceblue;
+
+
+
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0; 
+  }
+
+  100% {
+    
+  }
+}
+
+.chef {
+
+  animation: blink normal 3s infinite ease-in-out;
+  
+}
